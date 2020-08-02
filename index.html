@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="logo">
+    <img src="img/Saylani-logo.png" alt="Saylani">
+    </div>
+    <h2>STUDENT REGISTRATION FORM</h2>
+
+    <div class="container">
+    <form action="">
+        <div class="myform">
+            <label for="usr">FIRST NAME</label>
+            <input type="text" placeholder="Enter first name" id="fusr"><span>(max 30 characters a-z and A-Z)</span>
+        </div> 
+        
+        <div class="myform">
+            <label for="usr">LAST NAME</label>
+            <input type="text" placeholder="Enter last name" id="lusr"><span>(max 30 characters a-z and A-Z)</span>
+        </div>
+
+        <div>
+            <label for="birthday">DATE OF BIRTH</label>
+            <select id="bday" name="Day">
+                <option value="day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <select name="month" id="month">
+                <option value="month">Month</option>
+                <option value="january">January</option>
+                <option value="febuary">Febuary</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+            </select>
+
+            <select name="year" id="year">
+                <option value="year">Year</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+            </select>
+        </div>
+
+        <div class="myform">
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" placeholder="Enter email address" id="email">
+        </div>
+
+        <div class="myform">
+            <label for="phone">MOBILE NUMBER</label>
+            <input type="tel" placeholder="Enter mobile number" id="phone"><span>(10 digit number)</span>
+        </div>
+
+        <div class="myform">
+            <label>GENDER</label>
+            <span>Male</span> &nbsp; &nbsp; <input type="radio" name="genre" value="male" style="cursor: pointer;">  &nbsp; &nbsp;
+            <span>Female</span> &nbsp; &nbsp; <input type="radio" name="genre" value="female" style="cursor: pointer;">
+        </div>
+
+        <div class="myform">
+        <label>ADDRESS</label>
+            <textarea name="comments" cols="20" rows="4" style="margin-bottom: 10px;"></textarea>
+        </div>
+
+        <div class="myform">
+            <label for="city">CITY</label>
+            <input type="text" id="city" placeholder="Enter city name" name="city"><span>(max 30 characters a-z and A-Z)</span>
+        </div>
+
+        <div class="myform">
+            <label for="number">PIN CODE</label>
+            <input type="text" id="pincode" placeholder="Enter pincode" name="pincode"><span>(6 digit number)</span>
+        </div>
+
+        <div class="myform">
+            <label for="country">CITY</label>
+            <input type="text" id="country" placeholder="Enter country name" name="country">
+        </div>
+
+        <div class="myform1">
+            <label>HOBBIES</label>
+            <p>Drawing</p> <input type="checkbox" id="drawing" name="drawing" value="drawing">
+            <p>Singing</p> <input type="checkbox" id="singing" name="singing" value="singing">
+            <p>Dancing</p> <input type="checkbox" id="dancing" name="dancing" value="dancing"> 
+            <p>Sketching</p> <input type="checkbox" id="sketching" name="sketching" value="sketching">
+        </div>
+
+        <div class="myform1">
+           <span class="mybox">Others</span> <input type="checkbox" id="others" name="others" value="others">
+            <input type="text" id="others" name="others">
+        </div>
+
+        <div>
+            <label style="margin-bottom: 0px;"> QUALIFICATION </label>
+            <table>
+                <tr>
+                    <th>SI.No. Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+                <tr>
+                    <td>1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class X</td>
+                    <td> <input class="myinput" type="text" name="classX" id="board"> </td>
+                    <td> <input class="myinput" type="text" name="classX" id="per"> </td>
+                    <td> <input class="myinput" type="text" name="classX" id="year"> </td>
+                </tr>
+                <tr>
+                    <td>2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class XII</td>
+                    <td> <input class="myinput" type="text" name="classXII" id="board"> </td>
+                    <td> <input class="myinput" type="text" name="classXII" id="per"> </td>
+                    <td> <input class="myinput" type="text" name="classXII" id="year"> </td>
+                </tr>
+                <tr>
+                    <td>3 &nbsp; &nbsp; &nbsp; &nbsp; Graduation</td>
+                    <td> <input class="myinput" type="text" name="Graduation" id="board"> </td>
+                    <td> <input class="myinput" type="text" name="Graduation" id="per"> </td>
+                    <td> <input class="myinput" type="text" name="Graduation" id="year"> </td>
+                </tr>
+                <tr>
+                    <td>4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Masters</td>
+                    <td> <input class="myinput" type="text" name="Masters" id="board"> </td>
+                    <td> <input class="myinput" type="text" name="Masters" id="per"> </td>
+                    <td> <input class="myinput" type="text" name="Masters" id="year"> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>(10 char max)</td>
+                    <td>(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+                </table>
+        </div>
+
+        <div class="myform">
+            <label>COURSES APPLIED FOR</label>
+            <span>BCA</span> &nbsp; &nbsp; <input type="radio" name="course" value="bca" style="cursor: pointer;">  
+            <span>B.Com</span> &nbsp; &nbsp; <input type="radio" name="course" value="bcom" style="cursor: pointer;">
+            <span>B.Sc</span> &nbsp; &nbsp; <input type="radio" name="course" value="bsc" style="cursor: pointer;">
+            <span>B.A</span> &nbsp; &nbsp; <input type="radio" name="course" value="ba" style="cursor: pointer;">
+        </div>
+
+        <button type="button" class="btn btn-light mybutton"><a style="color: black; text-decoration: none;" href="submit.html">Submit </a></button>
+        <button type="reset" class="btn btn-light">Reset</button>
+    </form>
+    </div>
+</body>
+</html>

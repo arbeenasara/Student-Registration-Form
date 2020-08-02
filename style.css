@@ -1,0 +1,108 @@
+h2
+{
+    text-decoration: underline;
+    text-decoration-color: rgba(128, 84, 170, 0.829);
+    color: rgba(128, 84, 170, 0.829);
+    text-align: center;
+    font-family: Segoe UI;
+    margin-top: 2px;
+    font-size: 30vw;
+}
+
+.logo
+{
+    text-align: center;
+}
+
+form
+{
+    background-color: rgba(120, 55, 182, 0.829);
+    padding: 10px;
+    margin-top: 30px;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+label
+{
+    color: white;
+    width: 180px;
+    line-height: 47px;
+}
+
+.myform
+{
+    display: flex;
+    width: 100%;
+}
+
+input
+{
+    height: 28px;
+    padding: 20px;
+}
+
+textarea
+{
+    width: 500px;
+}
+
+span
+{
+    color: white;
+    padding-left: 5px;
+}
+
+.myform1
+{
+    display: flex;
+    width: 100%;
+}
+
+.myform1 input
+{
+    padding: 0px;
+}
+
+p
+{
+    color: white;
+    padding: 5px;
+}
+
+.mybox
+{
+    margin-left: 180px;
+    margin-right: 5px;
+}
+
+table
+{
+    text-align: center;
+    color: white;
+    margin-left: 180px;
+    margin-top: 5px;
+    border-color: rgba(120, 55, 182, 0.829);
+    margin-bottom: 10px;
+}
+
+.mybutton
+{
+    margin-left: 450px;
+}
+
+.myinput
+{
+    height: 15px;
+    padding: 10px;
+}
+
+select
+{
+    cursor: pointer;
+}
+
+table
+{
+    margin-top: 0px;
+}
